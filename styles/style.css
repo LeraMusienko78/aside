@@ -1,0 +1,101 @@
+@import "./variables.css";
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+a {
+    text-decoration : none;
+    color : inherit;
+}
+
+li {
+    list-style-type : none ;
+}
+
+#app{
+    height: 100vh;
+}
+
+.header{
+    background: var( --primary-bg);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saidebar{
+    width: 40%;
+    background: var( --secondary-bg);
+    border: 1px solid aqua;
+    padding: var(--padding-m );
+   
+}
+
+.title__saidebar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--margin-m);
+  color: var(--main-text);
+}
+
+.price{
+    margin-top: var(--margin-m);
+}
+
+.form-range{
+    margin-top: var(--margin-m);
+}
+
+.prod{
+    color: red;
+}
+
+label{
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+label:hover{
+    color: bisque;
+}
+
+.form-check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--margin-m);
+}
+
+.main{
+    width: 100%;
+    background: var( --secondary-bg);
+    border: 1px solid aqua;
+}
+
+.footer{
+    background: var(--primary-bg);
+    display: flex;
+}
+
+
+
+.sm-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+   
+}
+
+.img-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: var( --margin-s);
+}
+    
